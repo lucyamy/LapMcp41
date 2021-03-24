@@ -13,7 +13,7 @@
 #define LAPMCP41_POT2  B00000010
 #define LAPMCP41_BOTH  B00000011
 
-class LAPMCP41 {
+class LapMcp41 {
   private:
     uint8_t _ss;
     void sendCommand(uint8_t pot, uint8_t command, uint8_t value);
